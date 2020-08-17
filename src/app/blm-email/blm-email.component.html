@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('assets/img/fist2.jpg');
+  background-size: contain;
+  background-position: center;
+  margin: 0;
+  height: 100%;
+}
+div.relative {
+  position: relative;
+  left: 30px;
+}
+</style>
+</head>
+<body>
+    <div class = "relative">
+        <br>
+        <br>
+        <br>
+        <button (click) = "findCongressmen()">Find Congressman</button>
+        <p style="color:white">
+            Congressman : {{conressmanInfo.congressman}}
+        </p>
+        <p style="color:white">
+            Email : {{conressmanInfo.email}}
+        </p>
+        <p style="color:white">First Name: <input type="String" [(ngModel)] = "firstName"></p>  
+        <p style="color:white">Last Name : <input type="String" [(ngModel)] = "lastName"></p>
+        <p style="color:white"> User Email : <input type="String" [(ngModel)] = "email"></p>
+        <p style="color:white">Password : <input type="password" [(ngModel)] = "password"></p>
+        <button (click) = "sendEmail()">Send Custom Email</button>
+        <br> 
+        <p style="color:white"> 
+            {{result}}  
+        </p>  
+         <br>
+         <br>
+         <br>
+    </div>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+</body>
+</html>
+
+
